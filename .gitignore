@@ -1,0 +1,76 @@
+# ===========================
+#   🔥 MERN PROJECT GITIGNORE
+# ===========================
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Environment files ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs ---
+logs/
+*.log
+log.txt
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Build outputs ---
+dist/
+build/
+.cache/
+.tmp/
+
+# --- Frontend (React/Vite) ---
+# Vite cache
+node_modules/.vite/
+
+# React build
+frontend/build/
+
+# Vercel/Netlify
+.vercel/
+.netlify/
+
+# --- Backend ---
+backend/tmp/
+backend/uploads/
+backend/logs/
+
+# PM2 logs
+.pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.lcov
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- Misc ---
+*.swp
+*.bak
+*.orig
+*.tmp
+*.cache
